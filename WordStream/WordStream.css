@@ -1,0 +1,100 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: 1px dotted red;
+	font-family: arial;
+}
+
+div.container{
+	margin: 0 auto;
+	width: 970px;
+	height: 650px;
+}
+	.bold{
+		font-weight: bold;
+	}
+	.header{
+		width: 100%;
+		height: 140px;
+		margin-bottom: 15px;
+	}
+		.waves{
+			display: inline-block;
+		}
+		.WSWaves{
+			display: inline-block;
+			vertical-align: top;
+			margin-top: 12px;
+			margin-left: 2px;
+		}
+			.WSWord{
+				color: grey;
+			}
+			.WSStream{
+				color: rgb(24,104,189);
+			}
+		.top-head{
+			display: inline-block;
+			width: 52%;
+			height: 30px;
+			margin-left: 450px;
+		}
+			.top-menu{
+				display: inline-block;
+				border: solid 1px grey;
+				border-radius: 5px;
+				padding: 5px;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+			.top-menubt{
+				display: inline-block;
+			}
+			.loginbt{
+				margin-left: 10px;
+				background-color: rgb(24,104,189);
+				color: white;
+				padding: 2px;
+				padding-left: 10px;
+				padding-right: 10px;
+				border-radius: 5px;
+			}
+		.subhead{
+			display: inline-block;
+			width: 100%;
+			height: 45px;;
+			background-color: rgb(24,104,189);
+			color: white;
+		}
+			.WSTitle{
+				margin-top: 10px;
+				margin-left: 8px;
+			}
+
+	.body{
+		width: 100%;
+		height: 500px;
+	}
+		.left-col{
+			display: inline-block;
+			width: 25%;
+			height: 350px;
+			vertical-align: top;
+			margin-left: 10px;
+		}
+		.right-col{
+			display: inline-block;
+			width: 68%;
+			height: 500px;
+			margin-left: 25px;
+		}
+			.rcol-header{
+				width: 100%;
+				height: 60px;
+			}
+			.rcol-drive{
+				display: inline-block;
+				width: 80%;
+				height: 120px;
+				border: solid 3px rgb(24,104,189);
+			}
