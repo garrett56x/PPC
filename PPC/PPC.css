@@ -39,20 +39,26 @@ div.container{
 		.menu a{
 			text-decoration: none;
 			color: #56596A;
-			margin-left: 15px;
 			font-weight: bold;
 			font-size: 12px;
+			border-right: solid 1px rgb(214,214,214);
+			padding: 10px;
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+		.homeLeft{
+			border-left: solid 1px rgb(214,214,214);
 		}
 	
 	div.body{
 		width: 100%;
 		height: 615px;
 		margin-top: 15px;
-		background: radial-gradient(#3A3A38,black);
+		background: radial-gradient(#373735,black);
 	}
 		.picture{
 			display: inline-block;
-			margin-top: 12px;
+			margin-top: 17px;
 			margin-left: 25px;
 			margin-right: 10px;
 			border: solid 4px white;
@@ -62,7 +68,7 @@ div.container{
 			display: inline-block;
 			width: 54%;
 			height: 263px;
-			margin-top: 12px;
+			margin-top: 17px;
 			background: -webkit-linear-gradient(left,#757573,#373737);
 			background: -moz-linear-gradient(left,#757573,#373737);
 		}
@@ -73,7 +79,7 @@ div.container{
 				background: linear-gradient(#FADA63,#FBC600);
 				vertical-align: top;
 				height: 25px;
-				font-size: 16px;
+				font-size: 14px;
 				padding-left: 12px;
 				padding-top: 6px;
 			}
@@ -99,8 +105,11 @@ div.container{
 		}
 		.body h4{
 			display: inline-block;
+			vertical-align: top;
 			color: #A6A766;
 			margin-left: 15px;
+			margin-top: 10px;
+			font-size: 14px;
 		}
 		div.tabs{
 			width: 96%;
@@ -108,26 +117,60 @@ div.container{
 			margin-top: 10px;
 			margin-left: 22px;
 		}
+		.tabs h3{
+			background: linear-gradient(#FADA63,#FBC600);
+			vertical-align: top;
+			height: 25px;
+			font-size: 14px;
+			padding-left: 12px;
+			padding-top: 6px;
+		}
+		.tabs p{
+			font-size: 12px;
+			margin: 10px;
+		}
+		.tabs img{
+			border-top: solid 1px black;
+		}
 			div.automotive{
 				width: 222px;
 				height: 275px;
 				display: inline-block;
+				vertical-align: top;
+				background-color: white;
 			}
 			div.commercial{
-				width: 222px;
+				width: 221px;
 				height: 275px;
 				display: inline-block;
+				vertical-align: top;
+				background-color: white;
 				margin-left: 9px;
 			}
 			div.industrial{
 				width: 222px;
 				height: 275px;
 				display: inline-block;
+				vertical-align: top;
+				background-color: white;
 				margin-left: 9px;
 			}
 			div.diesel{
 				width: 222px;
 				height: 275px;
 				display: inline-block;
+				vertical-align: top;
+				background-color: white;
 				margin-left: 9px;
 			}
+				.readMore{
+					background-color: #FDC700;
+					border: solid 3px black;
+					border-radius: 5px;
+					font-size: 10px;
+					font-weight: bold;
+					padding: 5px;
+					padding-left: 15px;
+					margin-left: 100px;
+					margin-top: 5px;
+				}
