@@ -1,7 +1,7 @@
 *{
 	margin: 0px;
 	padding: 0px;
-	/*outline: 1px dotted red;*/
+	outline: 1px dotted red;
 	font-family: arial;
 }
 
@@ -46,24 +46,61 @@ div.container{
 	
 	div.body{
 		width: 100%;
-		height: 600px;
-		margin-top: 25px;
+		height: 615px;
+		margin-top: 15px;
 		background: radial-gradient(#3A3A38,black);
 	}
-		div.picture{
+		.picture{
 			display: inline-block;
-			width: 38%;
-			height: 275px;
-			margin-top: 15px;
+			margin-top: 12px;
 			margin-left: 25px;
 			margin-right: 10px;
-			/*border: solid 4px white;*/
+			border: solid 4px white;
 		}
 		div.about{
+			vertical-align: top;
 			display: inline-block;
-			width: 56%;
-			height: 275px;
-			margin-top: 15px;
+			width: 54%;
+			height: 263px;
+			margin-top: 12px;
+			background: -webkit-linear-gradient(left,#757573,#373737);
+			background: -moz-linear-gradient(left,#757573,#373737);
+		}
+		.bold{
+			font-weight: bold;
+		}
+			.about h3{
+				background: linear-gradient(#FADA63,#FBC600);
+				vertical-align: top;
+				height: 25px;
+				font-size: 16px;
+				padding-left: 12px;
+				padding-top: 6px;
+			}
+			.about p{
+				color: white;
+				font-size: 13px;
+				margin: 12px;
+			}
+			.heritage{
+				color: white;
+				font-size: 16px;
+				font-weight: bold;
+				margin-left: 12px;
+				margin-top: 10px;
+			}
+		.smallPic{
+			display: inline-block;
+			width: 50px;
+			height: 15px;
+			margin-left: 32px;
+			margin-top: 10px;
+			border-radius: 3px;
+		}
+		.body h4{
+			display: inline-block;
+			color: #A6A766;
+			margin-left: 15px;
 		}
 		div.tabs{
 			width: 96%;
